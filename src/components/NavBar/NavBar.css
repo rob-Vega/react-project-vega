@@ -1,0 +1,34 @@
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+    background-color: #fff;
+    border-bottom: 1px solid #e6e6e6;
+    text-transform: uppercase;
+}
+
+.navbar-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.navbar-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-list li {
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.navbar-list li:hover {
+    background-color: #e6e6e6;
+}
