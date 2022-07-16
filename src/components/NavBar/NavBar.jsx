@@ -1,5 +1,5 @@
 import './NavBar.scss';
-import CardWidget from '../CardWidget/CardWidget';
+import CartWidget from './CartWidget';
 
 const NavBar = () => {
     return (
@@ -11,7 +11,7 @@ const NavBar = () => {
                 <li>Support</li>
                 <li>Debuff</li>
                 <li>About Us</li>
-                <CardWidget/>
+                <CartWidget/>
             </ul>
         </header>
     );

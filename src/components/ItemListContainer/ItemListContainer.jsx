@@ -1,10 +1,10 @@
 import './ItemListContainer.scss';
 import Item from "../Item/Item";
 
-const ItemListContainer = () => {
+const ItemListContainer = ({greeting}) => {
     return (
         <div className='products'>
-            <h2>Our Recommendations</h2>
+            <h2>{greeting}</h2>
             <Item 
                 title="Potion" 
                 price={50} 
