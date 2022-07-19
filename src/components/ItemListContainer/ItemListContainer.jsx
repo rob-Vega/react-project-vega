@@ -1,7 +1,7 @@
 import './ItemListContainer.scss';
 import Item from "../Item/Item";
 
-const ItemListContainer = ({greeting}) => {
+const ItemListContainer = ({ greeting }) => {
     return (
         <div className='products'>
             <h2>{greeting}</h2>
@@ -16,6 +16,7 @@ const ItemListContainer = ({greeting}) => {
                 description="Restores HP by 500"
             />
             <Item 
+                image="./assets/images/Ether.png"
                 title="Ether" 
                 price={1500} 
                 description="Restores MP by 100"
