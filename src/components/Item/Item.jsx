@@ -1,12 +1,9 @@
-import './Item.scss';
-
-const Item = ({ image, title, price, description }) => {
+const Item = ({ image, title, price }) => {
     return (
-        <div className="item-card">
-            <img src={image} alt="Imagen del producto" className="item-card__image"/>
-            <h3 className="item-card__title">{title}</h3>
-            <span className="item-card__price">{price} GIL</span>
-            {/* <button className='item-card__button'>See Detail</button> */}
+        <div className="flex flex-col h-96 w-72 shadow-lg rounded-xl justify-center">
+            <img src={image} alt="Imagen del producto" className=" h-3/5 object-contain pb-8"/>
+            <h3 className="font-bold text-lg">{title}</h3>
+            <span className="font-medium text-gray-500">{price} GIL</span>
         </div>
     );
 }
