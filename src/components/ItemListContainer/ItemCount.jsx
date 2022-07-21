@@ -16,12 +16,12 @@ const ItemCount = ({ stock, initial }) => {
             <h2>Product</h2>
             <div className="flex items-center justify-center space-x-4">
                 <span 
-                    className="h-8 w-8 rounded-full bg-cyan-500 hover:bg-cyan-700 text-white font-bold text-xl"
+                    className="h-8 w-8 rounded-full bg-blue-500 hover:bg-blue-600 text-white font-bold text-xl cursor-pointer"
                     onClick={onRemove}
                 >-</span>
                 <p>{count}</p>
                 <span
-                    className="h-8 w-8 rounded-full bg-cyan-500 hover:bg-cyan-700 text-white font-bold text-xl"
+                    className="h-8 w-8 rounded-full bg-blue-500 hover:bg-blue-600 text-white font-bold text-xl cursor-pointer"
                     onClick={onAdd}
                 >+</span>
             </div>
