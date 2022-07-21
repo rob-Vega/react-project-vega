@@ -1,7 +1,6 @@
-// import './NavBar.scss';
 import CartWidget from './CartWidget';
 
-const Navbar = () => {
+const NavBar = () => {
     return (
         <header className="flex items-center w-full h-20 px-6 border-b-2">
             <img className='min-w-1/5 max-h-16' src="./assets/svg/logo.svg" alt="" srcset="" />
@@ -13,9 +12,8 @@ const Navbar = () => {
                 <li className='cursor-pointer font-bold hover:text-blue-500'>About Us</li>
                 <CartWidget/>
             </ul>
-            
         </header>
     );
 }
 
-export default Navbar;
+export default NavBar;
